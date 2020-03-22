@@ -38,10 +38,10 @@ func ladder_loop():
 	var hit=Input.is_action_just_pressed("x")
 	
 	GRAVITY=0
-	if up and not down: vel.y=-SPEED/2
-	elif down and not up: vel.y=SPEED/2
-	elif right and not left: vel.x=SPEED/2
-	elif left and not right: vel.x=-SPEED/2
+	if up and not down: vel.y=float(-SPEED)/2
+	elif down and not up: vel.y=float(SPEED)/2
+	elif right and not left: vel.x=float(SPEED)/2
+	elif left and not right: vel.x=float(-SPEED)/2
 
 func movement_loop():
 	var left=Input.is_action_pressed("ui_left")
@@ -99,7 +99,7 @@ func _on_AnimationPlayer_animation_finished(_anim_name):
 	hitting=false
 
 func _on_pickaxeArea_body_entered(body):
-	if body.name=="TileMap":
+	if body.name=="Ground":
 		var offSet=Vector2()
 		var animName=$AnimationPlayer.get_current_animation()
 		if "Up" in animName: offSet=Vector2(0,-1)

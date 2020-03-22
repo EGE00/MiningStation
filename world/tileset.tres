@@ -1,4 +1,4 @@
-[gd_resource type="TileSet" load_steps=15 format=2]
+[gd_resource type="TileSet" load_steps=14 format=2]
 
 [ext_resource path="res://sprites/tilesNew/goldBig.png" type="Texture" id=1]
 [ext_resource path="res://sprites/tilesNew/dirt.png" type="Texture" id=2]
@@ -7,7 +7,6 @@
 [ext_resource path="res://sprites/tilesNew/ironSmall.png" type="Texture" id=5]
 [ext_resource path="res://sprites/tilesNew/dirtDark.png" type="Texture" id=6]
 [ext_resource path="res://sprites/tilesNew/ironBig.png" type="Texture" id=7]
-[ext_resource path="res://sprites/constructions/ladder.png" type="Texture" id=8]
 
 [sub_resource type="ConvexPolygonShape2D" id=1]
 points = PoolVector2Array( 0, 0, 12, 0, 12, 12, 0, 12 )
@@ -134,13 +133,3 @@ points = PoolVector2Array( 0, 0, 12, 0, 12, 12, 0, 12 )
 "shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
 } ]
 8/z_index = 0
-9/name = "ladder.png 9"
-9/texture = ExtResource( 8 )
-9/tex_offset = Vector2( 0, 0 )
-9/modulate = Color( 1, 1, 1, 1 )
-9/region = Rect2( 0, 0, 12, 12 )
-9/tile_mode = 0
-9/occluder_offset = Vector2( 0, 0 )
-9/navigation_offset = Vector2( 0, 0 )
-9/shapes = [  ]
-9/z_index = 0

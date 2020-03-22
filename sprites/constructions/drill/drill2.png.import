@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/drill0000.png-50cb3b2258a53c85982929a49968017d.stex"
+path="res://.import/drill2.png-928ad7fbd6f240d0dfb68cd4aab5cb8f.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/constructions/drill/drill0000.png"
-dest_files=[ "res://.import/drill0000.png-50cb3b2258a53c85982929a49968017d.stex" ]
+source_file="res://sprites/constructions/drill/drill2.png"
+dest_files=[ "res://.import/drill2.png-928ad7fbd6f240d0dfb68cd4aab5cb8f.stex" ]
 
 [params]
 
